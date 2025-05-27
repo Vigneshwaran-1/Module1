@@ -15,7 +15,48 @@ To write a Python program that evaluates and prints the results of boolean and a
 8. Print the value of `d` with the label "d:".
 
 ## 💻 Program
-Add Code here
+~~~
+a = True
+b = False
+
+print("Boolean Expressions:")
+print(f"True AND False: {a and b}")
+print(f"True OR False: {a or b}")
+print(f"NOT True: {not a}")
+print(f"NOT False: {not b}")
+
+print("\nArithmetic Expressions:")
+print(f"True + True = {True + True}")
+print(f"True + False = {True + False}")
+print(f"False + False = {False + False}")
+print(f"True * 5 = {True * 5}")
+print(f"False * 10 = {False * 10}")
+print(f"True - False = {True - False}")
+
+print("\nMixed Expressions:")
+print(f"(True + False) * 3 = {(True + False) * 3}")
+print(f"(True * 2) + (False * 5) = {(True * 2) + (False * 5)}")
+~~~
 
 ## Output
+~~~
+Boolean Expressions:
+True AND False: False
+True OR False: True
+NOT True: False
+NOT False: True
+
+Arithmetic Expressions:
+True + True = 2
+True + False = 1
+False + False = 0
+True * 5 = 5
+False * 10 = 0
+True - False = 1
+
+Mixed Expressions:
+(True + False) * 3 = 3
+(True * 2) + (False * 5) = 2
+~~~
 ## Result
+Thus program is verified successfully
